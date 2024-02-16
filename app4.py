@@ -5,7 +5,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import openai
 
 # Replace with your API key
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "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"
 
 def get_calories(food_item):
     api_url = f'https://api.api-ninjas.com/v1/nutrition?query={food_item}'
